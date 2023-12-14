@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Your+Font+Name&display=swap');
+
+body{
+    font-family: 'Nunito', sans-serif;
+    background: rgb(243, 200, 208);
+}
+
+#NaviBar .nav-link{
+    color: white;
+}
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+h2{
+    color: #ea1c2c;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+#NaviBar .nav-link:hover{
+    color: #ea1c2c;
+}
+.navbar.scrolled{
+    background: rgb(236, 177, 236);
+    transition: background 800ms;
+}
+
+p{
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+@media (max-width: 1200px){
+    #headinG h1{
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    
+}
